@@ -1,7 +1,7 @@
 with table_a as (
-select
-    *
-from snowflake.prepare.table_A
+    select
+        *
+    from snowflake.prepare.table_A
 ),
 
 table_b as (
