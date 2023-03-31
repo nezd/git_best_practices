@@ -2,6 +2,7 @@ with table_a as (
     select
         *
     from snowflake.prepare.table_A
+    limit 10
 ),
 
 table_b as (
