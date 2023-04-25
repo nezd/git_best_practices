@@ -8,6 +8,7 @@ table_b as (
 select
   *
 from snowflake.prepare.table_b
+limit 100
 ),
 
 joined as (
