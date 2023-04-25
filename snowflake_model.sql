@@ -8,6 +8,7 @@ table_b as (
 select
   *
 from snowflake.prepare.table_b
+where id in (1234235, 54364563, 43653546)
 limit 100
 ),
 
